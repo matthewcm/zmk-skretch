@@ -8,7 +8,7 @@
         compatible = "zmk,combos";
 
         OS1 {
-            bindings = <&trans>;
+            bindings = <&kp LEFT_WIN>;
             key-positions = <15 12>;
             layers = <0>;
         };
