@@ -3,6 +3,70 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        OS1 {
+            bindings = <&trans>;
+            key-positions = <15 12>;
+        };
+
+        OS2 {
+            bindings = <&trans>;
+            key-positions = <23 20>;
+        };
+
+        Ctrl1 {
+            bindings = <&trans>;
+            key-positions = <15 14>;
+        };
+
+        Ctrl2 {
+            bindings = <&trans>;
+            key-positions = <20 21>;
+        };
+
+        Alt1 {
+            bindings = <&trans>;
+            key-positions = <15 13>;
+        };
+
+        Alt2 {
+            bindings = <&trans>;
+            key-positions = <20 22>;
+        };
+
+        OS_Ctrl1 {
+            bindings = <&trans>;
+            key-positions = <15 14 12>;
+        };
+
+        OS_Ctrl2 {
+            bindings = <&trans>;
+            key-positions = <20 23 21>;
+        };
+
+        OS_Alt1 {
+            bindings = <&trans>;
+            key-positions = <15 13 12>;
+        };
+
+        OS_Alt2 {
+            bindings = <&trans>;
+            key-positions = <20 22 23>;
+        };
+
+        OS_Alt_Ctrl1 {
+            bindings = <&trans>;
+            key-positions = <15 14 13 12>;
+        };
+
+        OS_Alt_Ctrl2 {
+            bindings = <&trans>;
+            key-positions = <20 21 22 23>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
