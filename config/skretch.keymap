@@ -14,67 +14,67 @@
         };
 
         OS2 {
-            bindings = <&trans>;
+            bindings = <&kp LWIN>;
             key-positions = <23 20>;
             layers = <0>;
         };
 
         Ctrl1 {
-            bindings = <&trans>;
+            bindings = <&kp LCTRL>;
             key-positions = <15 14>;
             layers = <0>;
         };
 
         Ctrl2 {
-            bindings = <&trans>;
+            bindings = <&kp LCTRL>;
             key-positions = <20 21>;
             layers = <0>;
         };
 
         Alt1 {
-            bindings = <&trans>;
+            bindings = <&kp LEFT_ALT>;
             key-positions = <15 13>;
             layers = <0>;
         };
 
         Alt2 {
-            bindings = <&trans>;
+            bindings = <&kp LEFT_ALT>;
             key-positions = <20 22>;
             layers = <0>;
         };
 
         OS_Ctrl1 {
-            bindings = <&trans>;
+            bindings = <&kp LC(LWIN)>;
             key-positions = <15 14 12>;
             layers = <0>;
         };
 
         OS_Ctrl2 {
-            bindings = <&trans>;
+            bindings = <&kp LC(LWIN)>;
             key-positions = <20 23 21>;
             layers = <0>;
         };
 
         OS_Alt1 {
-            bindings = <&trans>;
+            bindings = <&kp LG(LEFT_ALT)>;
             key-positions = <15 13 12>;
             layers = <0>;
         };
 
         OS_Alt2 {
-            bindings = <&trans>;
+            bindings = <&kp LG(LEFT_ALT)>;
             key-positions = <20 22 23>;
             layers = <0>;
         };
 
         OS_Alt_Ctrl1 {
-            bindings = <&trans>;
+            bindings = <&kp LG(LA(LCTRL))>;
             key-positions = <15 14 13 12>;
             layers = <0>;
         };
 
         OS_Alt_Ctrl2 {
-            bindings = <&trans>;
+            bindings = <&kp LG(LA(LCTRL))>;
             key-positions = <20 21 22 23>;
             layers = <0>;
         };
