@@ -141,9 +141,9 @@
         Mouse {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MOVE_LEFT  &mkp MOVE_UP  &mkp MOVE_DOWN  &mkp MOVE_RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp SCROLL_LEFT  &mkp SCROLL_UP  &mkp SCROLL_DOWN  &mkp SCROLL_RIGHT  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
             >;
         };
     };
