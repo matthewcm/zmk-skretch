@@ -131,7 +131,7 @@
         Media {
             bindings = <
       &trans        &trans     &trans      &trans  &trans  &trans  &trans          &trans            &trans           &trans      &trans  &trans
-&kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &trans  &trans  &trans  &kp C_PREVIOUS      &kp C_VOL_DN  &kp C_VOLUME_UP  &kp K_NEXT  &trans
+&kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &trans  &trans  &trans  &kp C_PREVIOUS      &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_NEXT  &trans
       &trans        &trans     &trans      &trans  &trans  &trans  &trans          &trans            &trans           &trans      &trans  &trans
                     &trans     &trans      &trans  &trans  &trans  &trans      &kp K_STOP  &kp K_PLAY_PAUSE       &kp K_MUTE      &trans  &trans
             >;
