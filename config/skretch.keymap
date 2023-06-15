@@ -1,8 +1,7 @@
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
-
 
 / {
     combos {
@@ -89,7 +88,7 @@
 &kp Q  &kp W  &kp E         &kp R      &kp T           &none  &none        &kp Y            &kp U        &kp I    &kp O      &kp P
 &kp A  &kp S  &kp D         &kp F      &kp G           &none  &none        &kp H            &kp J        &kp K    &kp L    &kp SQT
 &kp Z  &kp Z  &kp C         &kp V      &kp B           &none  &none        &kp N            &kp M    &kp COMMA  &kp DOT  &kp SLASH
-       &none  &none  &lt 5 ESCAPE  &lt 4 TAB  &kp LEFT_SHIFT  &none  &lt 1 SPACE  &lt 2 BACKSPACE  &lt 3 ENTER    &none      &none
+       &none  &none  &lt 6 ESCAPE  &lt 4 TAB  &kp LEFT_SHIFT  &none  &lt 1 SPACE  &lt 2 BACKSPACE  &lt 3 ENTER    &none      &none
             >;
         };
 
@@ -140,10 +139,10 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MOVE_LEFT  &mkp MOVE_UP  &mkp MOVE_DOWN  &mkp MOVE_RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans            &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &mkp MOVE_LEFT    &mkp MOVE_UP    &mkp MOVE_DOWN    &mkp MOVE_RIGHT  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp SCROLL_LEFT  &mkp SCROLL_UP  &mkp SCROLL_DOWN  &mkp SCROLL_RIGHT  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans         &mkp LCLK       &mkp RCLK            &trans             &trans  &trans
             >;
         };
     };
