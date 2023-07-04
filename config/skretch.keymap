@@ -60,6 +60,18 @@
             layers = <0>;
         };
 
+        Ctrl_Alt1 {
+            bindings = <&kp LC(LEFT_ALT)>;
+            key-positions = <15 14 13>;
+            layers = <0>;
+        };
+
+        Ctrl_Alt2 {
+            bindings = <&kp LC(LEFT_ALT)>;
+            key-positions = <21 20 22>;
+            layers = <0>;
+        };
+
         OS_Ctrl1 {
             bindings = <&kp LG(LCTRL)>;
             key-positions = <15 14 12>;
@@ -96,17 +108,7 @@
             layers = <0>;
         };
 
-        Ctrl_Alt1 {
-            bindings = <&kp LA(LCTRL)>;
-            key-positions = <15 14 13>;
-            layers = <0>;
-        };
 
-        Ctrl_Alt2 {
-            bindings = <&kp LA(LCTRL)>;
-            key-positions = <21 20 22>;
-            layers = <0>;
-        };
     };
 
     keymap {
