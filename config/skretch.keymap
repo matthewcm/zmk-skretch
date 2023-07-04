@@ -99,11 +99,13 @@
         Ctrl_Alt1 {
             bindings = <&kp LA(LCTRL)>;
             key-positions = <15 14 13>;
+            layers = <0>;
         };
 
         Ctrl_Alt2 {
             bindings = <&kp LA(LCTRL)>;
             key-positions = <21 20 22>;
+            layers = <0>;
         };
     };
 
