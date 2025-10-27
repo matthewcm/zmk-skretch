@@ -5,6 +5,8 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define U_MOUSE_MOVE_MAX 1400                     /* <--- New max speed setting (default: 600) */
+#define ZMK_POINTING_DEVICE_MOVE_MAX U_MOUSE_MOVE_MAX
+
 
 &mmv {
     time-to-max-speed-ms = <400>;/* <--- How long time until max speed is reached (default: 500) */
@@ -159,7 +161,7 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans        &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN &msc SCRL_UP   &msc SCRL_RIGHT &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans        &trans          &trans
         &trans  &trans  &trans  &trans  &trans  &trans  &mkp RCLK       &mkp LCLK       &trans        &trans          &trans
